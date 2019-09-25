@@ -1,4 +1,5 @@
 @import url(fonts/clear-sans.css);
+@import url(fonts/gurbaniwebthick.css);
 html, body {
   margin: 0;
   padding: 0;
@@ -16,6 +17,7 @@ body {
   clear: both; }
 
 h1.title {
+  font-family: gurbaniwebthickregular;
   font-size: 80px;
   font-weight: bold;
   margin: 0;
@@ -325,6 +327,7 @@ hr {
     border-radius: 3px;
     background: #eee4da;
     text-align: center;
+    font-family: gurbaniwebthickregular;
     font-weight: bold;
     z-index: 10;
     font-size: 55px; }

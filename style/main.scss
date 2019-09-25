@@ -1,5 +1,6 @@
 @import "helpers";
 @import "fonts/clear-sans.css";
+@import "fonts/gurbaniwebthick.css";
 
 $field-width: 500px;
 $grid-spacing: 15px;
@@ -319,6 +320,7 @@ hr {
 
     background: $tile-color;
     text-align: center;
+    font-family: gurbaniwebthickregular;
     font-weight: bold;
     z-index: 10;
 
@@ -491,6 +493,7 @@ hr {
   }
 
   h1.title {
+    font-family: gurbaniwebthickregular;
     font-size: 27px;
     margin-top: 15px;
   }

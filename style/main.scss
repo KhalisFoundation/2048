@@ -22,18 +22,25 @@ $game-container-background: #bbada0;
 
 $transition-speed: 100ms;
 
+$latin-font: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+$gurmukhi-font: 'gurbaniwebthickregular';
+
 html, body {
   margin: 0;
   padding: 0;
 
   background: #faf8ef;
   color: $text-color;
-  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: $latin-font;
   font-size: 18px;
 }
 
 body {
   margin: 80px 0;
+}
+
+.gurmukhi {
+  font-family: $gurmukhi-font;
 }
 
 .heading {
@@ -72,6 +79,7 @@ h1.title {
   display: inline-block;
   background: $game-container-background;
   padding: 15px 25px;
+  font-family: $gurmukhi-font;
   font-size: $height;
   height: $height;
   line-height: $height + 22px;
@@ -109,10 +117,12 @@ h1.title {
 
 .score-container:after {
   content: "Score";
+  font-family: $latin-font;
 }
 
 .best-container:after {
   content: "Best";
+  font-family: $latin-font;
 }
 
 p {
@@ -320,7 +330,7 @@ hr {
 
     background: $tile-color;
     text-align: center;
-    font-family: gurbaniwebthickregular;
+    font-family: $gurmukhi-font;
     font-weight: bold;
     z-index: 10;
 
@@ -493,7 +503,7 @@ hr {
   }
 
   h1.title {
-    font-family: gurbaniwebthickregular;
+    font-family: $gurmukhi-font;
     font-size: 27px;
     margin-top: 15px;
   }

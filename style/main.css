@@ -97,11 +97,11 @@ h1.title {
     animation-fill-mode: both; }
 
 .score-container:after {
-  content: "Score";
+  content: "ਸਕੋਰ";
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif; }
 
 .best-container:after {
-  content: "Best";
+  content: "ਉੱਚ ਸਕੋਰ";
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif; }
 
 p {
